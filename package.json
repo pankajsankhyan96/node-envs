@@ -4,7 +4,7 @@
   "description": "setting environments for node application",
   "main": "server.js",
   "scripts": {
-    "start": "set NODE_ENV=local&& node server.js",
+    "start": "node server.js",
     "start:dev": "set NODE_ENV=development&& node server.js"
   },
   "author": "Pankaj",
