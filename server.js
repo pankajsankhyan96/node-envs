@@ -6,7 +6,7 @@ let mode = '';
 console.log(`NODE_ENV=${config.NODE_ENV}`);
 
 app.get('/', (req, res) => {
-    res.send('Hello World !!   Database: ' + process.env.DB_HOST);
+    res.send('Hello World !!    Database: ' + process.env.DB_HOST);
 });
 
 app.listen(config.PORT, config.HOST, () => {
