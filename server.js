@@ -9,6 +9,6 @@ app.get('/', (req, res) => {
     res.send('Hello World !!    Database: ' + process.env.DB_HOST);
 });
 
-app.listen(config.PORT, config.HOST, () => {
-    console.log(`APP LISTENING ON http://${config.HOST}:${config.PORT}`);
+app.listen(config.PORT, () => {
+    console.log(`APP LISTENING ON http://localhost:${config.PORT}`);
 })
