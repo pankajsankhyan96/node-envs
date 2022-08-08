@@ -5,8 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "set NODE_ENV=local&& node server.js",
-    "start:dev": "set NODE_ENV=development&& node server.js",
-    "build": "set NODE_ENV=production&& npm run build"
+    "start:dev": "set NODE_ENV=development&& node server.js"
   },
   "author": "Pankaj",
   "license": "ISC",
